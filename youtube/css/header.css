@@ -1,0 +1,163 @@
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 110px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: solid;
+    border-bottom-color:rgb(235, 235, 235) ;
+    border-bottom-width:1px ;
+    z-index:100;
+
+}
+
+.left-section{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.middle-section{
+    display: flex;
+    flex:1;
+    margin-left: 5px;  
+    max-width: 450px;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.voice-button{
+    height: 37px;
+    width: 37px;
+    border: solid;
+    border: 0;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 0;
+    margin-top: 3px;
+}
+
+.voice-button:hover{
+    background-color: rgb(236, 236, 236);
+    border-radius: 50%;
+}
+
+.voice-button:active{
+    box-shadow: inset 0px 0px 5px rgba(165, 165, 165, 0.3);
+}
+
+.voice-icon{
+    width: 90%;
+
+}
+
+.searchbox::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.searchbox{
+        font-size: 16px;
+        flex:1;
+        height: 34px;
+        border-width: 1px; 
+        border-style: solid;
+        border-color: rgb(201, 201, 201);
+        border-radius: 50px;
+        box-shadow: inset 1px 1px 5px rgba(0,0,0,0.05); 
+        width: 0;    
+       
+}
+
+.search-button{
+    background-color: rgb(255, 255, 255);
+    width: 40px;
+    height: 38px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:  rgb(255, 255, 255);
+    margin-left: 1px;
+    margin-bottom: 2px;
+}
+
+.search-button:hover{
+    background-color: rgb(236, 236, 236);
+    border-radius: 50%;
+}
+
+.search-button:active{
+    box-shadow: inset 0px 0px 5px rgba(165, 165, 165, 0.3);
+}
+
+.search-icon{
+    height: 25px;
+    margin-top: 5px;
+}
+
+.right-section{
+    margin-right: 24px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink:0;
+}
+
+.menu{
+    width: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.yt-logo{
+    width: 97px;
+}
+
+
+
+.upload{
+    width: 24px;
+}
+
+.youtube-apps{
+    width: 24px;
+}
+
+.notifications{
+    width: 24px;
+}
+
+.my-channel{
+    height: 33px;
+    width: 33px;
+    border-radius: 20px;
+}
+
+.count{
+    position:absolute;
+    display: flex;
+    background-color:#c92939;
+    color: white;
+    border-radius: 12px;
+    font-size: 10px;
+    font-family: Roboto;    
+    width: 15px;
+    bottom: 14px;
+    left: 12px ;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    font-weight: 500;
+ 
+}
+
+.noti-count{
+    position: relative;
+    
+}
+
